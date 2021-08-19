@@ -10,7 +10,7 @@ on:
   
 
 jobs:
-  periodic health check:
+  periodic_health_check:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
