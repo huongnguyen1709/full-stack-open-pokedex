@@ -1,11 +1,13 @@
-name: Testing stuff
+name: Health Check URL
 
 on:
   push:
     branches:
       - master
   schedule:
-    - cron: '* */24 * * *'
+    - cron: '0 1-23 * * *'
+    - cron: '0 0 * * *'
+  
 
 jobs:
   periodic health check:
