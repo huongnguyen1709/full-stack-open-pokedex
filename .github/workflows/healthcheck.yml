@@ -19,6 +19,5 @@ jobs:
         with:
           # Check the following URLs one by one sequentially
           url: https://pokedex1709.herokuapp.com
-          # Follow redirects, or just report success on 3xx status codes
-          follow-redirect: no # Optional, defaults to "no"
+        
        
